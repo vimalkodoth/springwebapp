@@ -40,7 +40,7 @@ public class RegisterDAO {
 		 RestTemplate restTemplate = new RestTemplate();
 		 
 		 try {
-			 verifyResponse = restTemplate.postForObject("http://stg-api.intigral-ott.net/RC7-popcorn-api-rs-5.0/v1/msisdn/verifications/"+verificationGuid, req, VerifyResponse.class);
+			 verifyResponse = restTemplate.postForObject("http://stg-api.intigral-ott.net/RC7-popcorn-api-rs-5.0/v1/msisdn/verifications/"+verificationGuid+"?apikey=cG0sVDlZUUMzNDdUSF", req, VerifyResponse.class);
 		 }
 		 catch(Exception e) {
 			 System.out.println(e);

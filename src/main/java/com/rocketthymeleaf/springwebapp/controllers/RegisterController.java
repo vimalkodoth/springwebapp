@@ -46,9 +46,10 @@ public class RegisterController {
 		model.addAttribute("verifynow", new VerifyFormModel());
 		return "verify";
 	}
-	@RequestMapping(value="/register",method = RequestMethod.POST,params="action=Result")
+	@RequestMapping(value="/register",method = RequestMethod.POST,params="action=Verify")
 	public String result(Model model, @ModelAttribute RegisterFormModel registernow) {
-		return "result";
+		model.addAttribute("verifynow", new VerifyFormModel());
+		return "verify";
 	}
 
 }
