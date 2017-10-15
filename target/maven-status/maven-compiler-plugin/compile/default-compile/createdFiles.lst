@@ -1,0 +1,6 @@
+com/rocketthymeleaf/springwebapp/controllers/RegisterController.class
+com/rocketthymeleaf/springwebapp/controllers/VerifyController.class
+com/rocketthymeleaf/springwebapp/controllers/ResultController.class
+com/rocketthymeleaf/springwebapp/dao/RegisterDAO.class
+com/rocketthymeleaf/springwebapp/models/RegisterFormModel.class
+com/rocketthymeleaf/springwebapp/SpringwebappApplication.class

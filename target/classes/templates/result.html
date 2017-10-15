@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>RocketTV - Registration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+<link rel="stylesheet" th:href="@{/css/result.css}"
+	href="../../css/result.css" />
+
+</head>
+<body>
+
+	<div id="result_box">
+		 <h2>RocketTV - PIN Verification</h2>
+		<div>
+	    	<span>Result : </span><span th:text="${status}"></span>
+	    </div>
+	</div>
+
+	<script type="text/javascript"
+		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>

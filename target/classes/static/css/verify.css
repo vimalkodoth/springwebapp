@@ -1,0 +1,24 @@
+#verify_form {
+	position: absolute;
+	left:50%;
+	top:50%;
+	border: 1px solid #eee;
+	padding:20px;
+	width:600px;
+	height:300px;
+	margin:-150px 0 0 -300px;
+}
+form ul {
+	list-style :none;
+}
+form ul input[type=number], input[type=text]{
+	width:32px;
+	height:32px;
+	float:left;
+	margin:15px;
+}
+form ul li#button,form ul li#error{
+	clear:both;
+	float:right;
+	padding: 20px 0;
+}

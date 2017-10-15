@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>RocketTV - Registration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+<link rel="stylesheet" th:href="@{/css/verify.css}"
+	href="../../css/verify.css" />
+
+</head>
+<body>
+
+ <div id="verify_form">
+	 <form name="verifyForm" th:action="@{/verify}" method="POST" th:object="${verifynow}">
+		<ul>
+
+	        <h2>RocketTV - Verify Registration!</h2>
+	        <span class="required_notification">Please enter your PIN below to verify.</span>
+
+		    <li>
+				<input type="number" name="inputone" required="true" th:field="*{inputone}" placeholder="1" />
+		    </li>
+		    <li>
+				<input type="number" name="inputtwo" required="true" th:field="*{inputtwo}" placeholder="2" />
+		    </li>
+		    <li>
+				<input type="number" name="inputthree" required="true" th:field="*{inputthree}" placeholder="3" />
+		    </li>
+		    <li>
+				<input type="number" name="inputfour" required="true" th:field="*{inputfour}" placeholder="4" />
+		    </li>
+		    	<li>
+				<input type="number" name="inputfive" required="true" th:field="*{inputfive}" placeholder="5" />
+		    </li>
+		    <li>
+				<input type="number" name="inputsix" required="true" th:field="*{inputsix}" placeholder="6" />
+		    </li>
+		    <li>
+				<input type="hidden" name="verificationGuid" value="${verificationGuid}" th:field="*{verificationGuid}"/>
+		    </li>
+		    <li>
+				<input type="hidden" name="operator" value="${operator}" th:field="*{operator}"/>
+		    </li>
+<!-- 		    <li id="error">
+				<span class="error" >
+				      Input Required!</span>
+			    <span class="error" >
+			      Require a single digit number!</span>
+		    </li> -->
+		    <li id="button">
+		    	<input type="submit" value="Verify!"/>
+		    </li>
+		</ul>
+	</form>
+</div>
+
+	<script type="text/javascript"
+		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>

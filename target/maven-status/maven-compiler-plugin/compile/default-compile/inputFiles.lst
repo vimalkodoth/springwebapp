@@ -1,0 +1,11 @@
+/Users/vimal_m/Desktop/springwebapp/src/main/java/com/rocketthymeleaf/springwebapp/controllers/RegisterController.java
+/Users/vimal_m/Desktop/springwebapp/src/main/java/com/rocketthymeleaf/springwebapp/models/RegisterUserRequest.java
+/Users/vimal_m/Desktop/springwebapp/src/main/java/com/rocketthymeleaf/springwebapp/controllers/ResultController.java
+/Users/vimal_m/Desktop/springwebapp/src/main/java/com/rocketthymeleaf/springwebapp/models/VerifyUserRequest.java
+/Users/vimal_m/Desktop/springwebapp/src/main/java/com/rocketthymeleaf/springwebapp/controllers/VerifyController.java
+/Users/vimal_m/Desktop/springwebapp/src/main/java/com/rocketthymeleaf/springwebapp/models/RegisterFormModel.java
+/Users/vimal_m/Desktop/springwebapp/src/main/java/com/rocketthymeleaf/springwebapp/models/OTPResponse.java
+/Users/vimal_m/Desktop/springwebapp/src/main/java/com/rocketthymeleaf/springwebapp/dao/RegisterDAO.java
+/Users/vimal_m/Desktop/springwebapp/src/main/java/com/rocketthymeleaf/springwebapp/SpringwebappApplication.java
+/Users/vimal_m/Desktop/springwebapp/src/main/java/com/rocketthymeleaf/springwebapp/models/RegisterResponse.java
+/Users/vimal_m/Desktop/springwebapp/src/main/java/com/rocketthymeleaf/springwebapp/models/VerifyFormModel.java

@@ -1,0 +1,37 @@
+form label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+}
+form input {
+  display: inline-block;
+  float: left;
+}
+#register_form {
+	position: absolute;
+	left:50%;
+	top:50%;
+	border: 1px solid #eee;
+	padding:20px;
+	width:500px;
+	height:300px;
+	margin:-150px 0 0 -250px;
+}
+form ul {
+	list-style :none;
+}
+form ul h2 {
+	border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+form ul li{
+	padding: 20px;
+}
+form ul li label {
+	padding-right:10px;
+}
+form input[type=submit]{
+	float:right;
+}
